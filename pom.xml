@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>proyecto-limpio-spring</groupId>
-	<artifactId>proyecto-limpio-spring</artifactId>
+	<artifactId>candoit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<build>
@@ -181,21 +181,38 @@
 			<artifactId>validation-api</artifactId>
 			<version>2.0.1.Final</version>
 		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.hibernate.validator</groupId>-->
+<!--			<artifactId>hibernate-validator</artifactId>-->
+<!--			<version>7.0.1.Final</version>-->
+<!--		</dependency>-->
+<!--				<dependency>-->
+<!--					<groupId>org.glassfish</groupId>-->
+<!--					<artifactId>jakarta.el</artifactId>-->
+<!--					<version>4.0.0</version>-->
+<!--				</dependency>-->
+
+<!--				<dependency>-->
+<!--					<groupId>org.hibernate.validator</groupId>-->
+<!--					<artifactId>hibernate-validator-cdi</artifactId>-->
+<!--					<version>7.0.1.Final</version>-->
+<!--				</dependency>-->
 		<dependency>
 			<groupId>org.hibernate.validator</groupId>
 			<artifactId>hibernate-validator</artifactId>
-			<version>7.0.1.Final</version>
+			<version>6.0.22.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>org.glassfish</groupId>
-			<artifactId>jakarta.el</artifactId>
-			<version>4.0.0</version>
+			<artifactId>javax.el</artifactId>
+			<version>3.0.1-b09</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate.validator</groupId>
 			<artifactId>hibernate-validator-cdi</artifactId>
-			<version>7.0.1.Final</version>
+			<version>6.0.22.Final</version>
 		</dependency>
+
 
 	</dependencies>
 </project>
